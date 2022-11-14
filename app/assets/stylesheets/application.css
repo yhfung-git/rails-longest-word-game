@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+.letters {
+  display: flex;
+  flex-wrap: nowrap;
+}
+ .letters > div {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 10px;
+  background: rgb(17, 106, 195);
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+ .replied {
+  background-color: aquamarine;
+  display: inline-block;
+ }
